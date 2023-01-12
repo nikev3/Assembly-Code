@@ -1,10 +1,10 @@
-
+;I was trying to learn x86 so i wrote this sample code to count from 0-9
 section	.text
    global _start        ;must be declared for using gcc
 	
 _start:	                ;tell linker entry point
    mov ecx,10
-   mov eax, '1'
+   mov eax, '1' 	; Number to output
 	
 l1:
    mov [num], eax
